@@ -1,0 +1,57 @@
+Package Test
+
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.TimeUnit;
+import org.openqa.selenium.FirefoxDriver;
+import org.openqa.selenium.ChromeDriver;
+
+// get , getTitle, getCurrentURL, getPageSource, getText,getTagName, getCssValue, getAttributeName(String), getSize, Close , quit
+Public static void main(String[] args)
+{
+	WebDriver driver  = new ChromeDriver();
+	driver.manage().winddow().maximize();
+	driver.get("https://www.google.com");
+	driver.manage.timeouts().implictlyWait(60,TimeUnit.SECONDS);
+	str title = driver.getTitle();
+	system.out.println(" Title is " +title);
+	actualTitle.equalsIgnoreCase(title)
+	
+}
+
+
+//Navigation command  
+// Access via eclipse driver.navigate().
+//methods - to(URL), back, forward, refresh,
+
+
+//Webelement interfact
+//metohd - findElement(By.id("Ind") , if no element return NosuchElement exception
+WebDriver driver  = New ChromeDriver()
+WebElemet elm = driver.findelement(By.Id("India")
+elm.isDisaplyed
+elm.isEnabled
+elm.isSelected
+elm.Sendkeys("OK")
+elm.clear 
+elm.click
+
+
+//Select class - it is used to select value from dropdown. It is class extends Object class. It is part of org.openqa.selenium.support.ui package
+ Select select = New Select(Webelement webelement)
+ 
+ select.selectbyValue
+ select.selectbyIndex
+  .selectbyVisibleText
+  .deselectAll
+  .deselectbyIndex/VisibleText/byValue
+  .getOptions().size()  -
+  
+  
+  
+  
+  
+  // Versions
+   Selenium  - Version 4.12  whats new
+   Appium Version 2
+   Sauce lab provides mobile test environment like emualtors and simulators  and/or real device
+
