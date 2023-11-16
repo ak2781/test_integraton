@@ -18,14 +18,14 @@ public class StepDefinitions {
     	
     }
     
- /*  @Then("I am Happy")
+  @Then("I am Happy")
     public void I_am_Happy() {
     	 // System.out.print("Then");	
     	  Belly belly = new Belly();
           belly.happy();
     	
     }
-  */ 
+
 
 @Given("^Users open GW application$")
 public void abc() {
